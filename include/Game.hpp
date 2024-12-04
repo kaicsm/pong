@@ -3,7 +3,6 @@
 #include "State.hpp"
 #include <memory>
 #include <stack>
-#include <iostream>
 
 class Game {
 public:

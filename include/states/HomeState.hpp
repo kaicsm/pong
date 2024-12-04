@@ -1,19 +1,16 @@
 #pragma once
 
-#include "../State.hpp"
 #include "../Game.hpp"
-
-#include "PongState.hpp"
-
-#include <iostream>
+#include "../State.hpp"
 
 class HomeState : public State {
 public:
-    HomeState(Game& game);
+  HomeState(Game &game);
 
-    void handleInputs() override;
-    void update(float deltaTime) override;
-    void render() override;
+  void handleInputs() override;
+  void update(float deltaTime) override;
+  void render() override;
+
 private:
-    Game& game;
+  Game &game;
 };
